@@ -1,0 +1,4 @@
+- useDispatch allows you to send an action to the redux store by giving an action
+as argument to dispatch a variable.
+syntax :
+const dispatch = useDispatch() 

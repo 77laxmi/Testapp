@@ -1,0 +1,16 @@
+import React from 'react'
+import useCounter from './useCounter'
+
+const Count1 = () => {
+    const [count,increment,decrement] = useCounter(10)
+  return (
+    <div>
+      <h1> This is from Custom Hook.....</h1>
+      <h2>Counter1 : {count}</h2>
+      <button onClick={increment}>Increment</button>
+      <button onClick={decrement} >Decrement</button>
+    </div>
+  )
+}
+
+export default Count1

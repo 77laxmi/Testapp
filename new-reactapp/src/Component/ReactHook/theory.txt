@@ -1,0 +1,28 @@
+# React Hooks - 
+-  hooks are a function that allows you to write a state and other react features
+ without using a class.
+- react hooks are new features of react introduced in v16.8.
+- react allow you to use state in functional component ,
+- before hooks we had used class component to define a state and other react features,it
+could be difficult to maintain for large application. using hooks it becomes easier
+to manage the state .
+-* simpler - easy to learn
+-* readable - easy to understand,
+-* reusble - we can reuse the hooks
+-* improve performance  -  reduce the number of object that needs to be created.
+ 
+ # hooks basically have 3 rules
+ - hooks can only be called at the top in component.
+ -  hooks can only be called inside react functional component.
+ - hooks cannot be conditional.
+
+ .............some predefined hooks in react...........
+ - useState 
+ - useEffect
+ - useRef
+ - useCallback
+ - useMemo
+ - useContext
+ - useReducer
+
+ -* customhooks - can be created by developer , it should start with use keyword.

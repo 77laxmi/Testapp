@@ -1,0 +1,6 @@
+- useSelector allows you to extract data or state from the store using selector
+function.
+- takes current state as argument and returns a single value as a result.
+- useSelctor will subscribe to redux store and runs whenever action gets dispatched.
+syntax.
+const count = useSector((state)=>state.counter.value)

@@ -1,0 +1,11 @@
+{
+  "employees": [
+    {
+      "name": "Radha",
+      "designation": "Software developer",
+      "city": "Pune",
+      "salary": 500000
+     
+    }
+  ]
+}
